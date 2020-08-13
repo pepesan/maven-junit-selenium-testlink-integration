@@ -71,7 +71,6 @@ public class MyStepdefs {
             e.printStackTrace();
         }
         finally {
-            System.out.println("result:"+this.result);
             reportResult(testProject, testPlan, testCase, build, notes, this.result);
             driver.quit();
         }
